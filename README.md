@@ -12,7 +12,7 @@ PROTOBUF_ABSL_DEPS = absl_absl_check absl_absl_log absl_algorithm absl_base absl
 
 PROTOBUF_UTF8_RANGE_LINK_LIBS = -lutf8_validity
 LIBS += -L/usr/local/include/grpc++ -lgrpc++
-export PKG_CONFIG_PATH = /.local/lib/pkgconfig:./grpc/third_party/re2:/.local/bin/:/.local/share/pkgconfig/
+export PKG_CONFIG_PATH = /.local/lib/pkgconfig:/grpc/third_party/re2/:/.local/bin/:/.local/share/pkgconfig/
 
 HOST_SYSTEM = $(shell uname | cut -f 1 -d_)
 SYSTEM ?= $(HOST_SYSTEM)
