@@ -74,7 +74,6 @@ export PKG_CONFIG_PATH = /.local/lib/pkgconfig:./grpc/third_party/re2:/.local/bi
 ```
 you can change the files to compile accordingly. 
 
-to use the image you should use the following command 
 ```
 docker run -v .:/home  -w /home   -i -t alighazi1/protobuf_grpc_cpp_protoc:latest /bin/bash
 ```
