@@ -69,7 +69,7 @@ clean:
 
 the most important thing is this path that has been exported according to our docker imge 
 ```
-export PKG_CONFIG_PATH = /.local/lib/pkgconfig:./grpc/third_party/re2:/.local/bin/:/.local/share/pkgconfig/
+export PKG_CONFIG_PATH = /.local/lib/pkgconfig:/grpc/third_party/re2/:/.local/bin/:/.local/share/pkgconfig/
 
 ```
 you can change the files to compile accordingly. 
